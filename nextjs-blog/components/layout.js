@@ -49,7 +49,7 @@ export default function Layout({children, home}){
                                 <Image
                                     priority
                                     src="/images/profile.jpg"
-                                    className={utilStyles.borderCicle}
+                                    className={utilStyles.borderCircle}
                                     height={144}
                                     width={144}
                                     alt={name}
@@ -71,7 +71,8 @@ export default function Layout({children, home}){
                 <div className={styles.backToHome}>
                     <Link href="/">
                         <a>	
-                            &#9754; Back To Home</a>
+                            &#9754; Back To Home
+                        </a>
                     </Link>
                 </div>
             )}
